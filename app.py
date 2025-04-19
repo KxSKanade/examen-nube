@@ -66,7 +66,9 @@ def registrar():
 @app.route('/administrar')
 def administrar():
     registros = obtener_registros()
+    print("Registros obtenidos:", registros) 
     return render_template('administrar.html', registros=registros)
+
 
 
 @app.route('/eliminar/<string:dni>', methods=['POST'])
