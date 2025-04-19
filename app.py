@@ -5,10 +5,10 @@ import os
 app = Flask(__name__, template_folder='templates')
 
 # Configuración de la base de datos en Render
-DB_HOST = os.environ.get('DB_HOST', 'dpg-cr6bdj1u0jms73bn1teg-a.oregon-postgres.render.com')
-DB_NAME = os.environ.get('DB_NAME', 'dbtest_h0hy')
-DB_USER = os.environ.get('DB_USER', 'dbtest_h0hy_user')
-DB_PASSWORD = os.environ.get('DB_PASSWORD', 'xkmD4V6rmoGNJ27uGLq1k76ynORQ8HTd')
+DB_HOST = os.environ.get('DB_HOST', 'dpg-d01qguruibrs73b2tkug-a')
+DB_NAME = os.environ.get('DB_NAME', 'dbexamen_banf')
+DB_USER = os.environ.get('DB_USER', 'kanade')
+DB_PASSWORD = os.environ.get('DB_PASSWORD', 'kgkhdjZ0CPrHtu58zFX6weXIhUJnYEKq')
 
 
 def conectar_db():
